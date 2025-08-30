@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #F9FAFB;
+    --foreground: #0A0A0A;
+    --card: #FFFFFF;
+    --card-foreground: #0A0A0A;
+    --popover: #FFFFFF;
+    --popover-foreground: #0A0A0A;
+    --primary: #D4AF37;
+    --primary-foreground: #0A0A0A;
+    --secondary: #0B1F3A;
+    --secondary-foreground: #F9FAFB;
+    --muted: #E5E7EB;
+    --muted-foreground: #1F2937;
+    --accent: #102A4C;
+    --accent-foreground: #F9FAFB;
+    --destructive: #DC2626;
+    --destructive-foreground: #FAFAFA;
+    --border: #E5E7EB;
+    --input: #E5E7EB;
+    --ring: #B9921F;
+    --radius: 0.75rem;
+  }
+  
+  * { 
+    @apply border-border; 
+  }
+  
+  body { 
+    @apply bg-background text-foreground; 
+  }
+}
+
+@layer base {
+  .bg-background { background-color: var(--background); }
+  .text-foreground { color: var(--foreground); }
+  .bg-card { background-color: var(--card); }
+  .text-card-foreground { color: var(--card-foreground); }
+  .bg-popover { background-color: var(--popover); }
+  .text-popover-foreground { color: var(--popover-foreground); }
+  .bg-primary { background-color: var(--primary); }
+  .text-primary-foreground { color: var(--primary-foreground); }
+  .bg-secondary { background-color: var(--secondary); }
+  .text-secondary-foreground { color: var(--secondary-foreground); }
+  .bg-muted { background-color: var(--muted); }
+  .text-muted-foreground { color: var(--muted-foreground); }
+  .bg-accent { background-color: var(--accent); }
+  .text-accent-foreground { color: var(--accent-foreground); }
+  .bg-destructive { background-color: var(--destructive); }
+  .text-destructive-foreground { color: var(--destructive-foreground); }
+  .ring-brand { --tw-ring-color: var(--ring); }
+  .rounded-brand { border-radius: var(--radius); }
+}

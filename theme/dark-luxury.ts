@@ -1,0 +1,25 @@
+import type { ThemeTokens } from "./tokens";
+
+export const DarkLuxuryTheme: ThemeTokens = {
+  name: "dark-luxury",
+  background: "#0B0B0C",
+  foreground: "#F5F7FB",
+  card: "#101014",
+  cardForeground: "#F5F7FB",
+  popover: "#101014",
+  popoverForeground: "#F5F7FB",
+  primary: "#D4AF37",
+  primaryForeground: "#0B0B0C",
+  secondary: "#1D1F2A",
+  secondaryForeground: "#F5F7FB",
+  muted: "#1A1A1F",
+  mutedForeground: "#C7CBD4",
+  accent: "#171E2B",
+  accentForeground: "#E9ECF3",
+  destructive: "#7F1D1D",
+  destructiveForeground: "#FCECEC",
+  border: "#1F2430",
+  input: "#232839",
+  ring: "#B9921F",
+  radius: "0.75rem",
+};

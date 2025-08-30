@@ -1,0 +1,25 @@
+import type { ThemeTokens } from "./tokens";
+
+export const GoldNavyTheme: ThemeTokens = {
+  name: "gold-navy",
+  background: "#F9FAFB",
+  foreground: "#0A0A0A",
+  card: "#FFFFFF",
+  cardForeground: "#0A0A0A",
+  popover: "#FFFFFF",
+  popoverForeground: "#0A0A0A",
+  primary: "#D4AF37",
+  primaryForeground: "#0A0A0A",
+  secondary: "#0B1F3A",
+  secondaryForeground: "#F9FAFB",
+  muted: "#E5E7EB",
+  mutedForeground: "#1F2937",
+  accent: "#102A4C",
+  accentForeground: "#F9FAFB",
+  destructive: "#DC2626",
+  destructiveForeground: "#FAFAFA",
+  border: "#E5E7EB",
+  input: "#E5E7EB",
+  ring: "#B9921F",
+  radius: "0.75rem",
+};
