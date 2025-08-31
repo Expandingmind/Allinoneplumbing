@@ -5,7 +5,12 @@ import {
   Clock,
   CheckCircle,
   Wrench,
-  Star
+  Star,
+  Flame,
+  Zap,
+  Droplets,
+  Search,
+  ShowerHead
 } from "lucide-react";
 import { TopBar } from "@/components/TopBar";
 import { Nav } from "@/components/Nav";

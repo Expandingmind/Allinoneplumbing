@@ -6,7 +6,8 @@ import {
   Zap, 
   ShowerHead, 
   Clock,
-  Phone
+  Phone,
+  Shield
 } from "lucide-react";
 import { TopBar } from "@/components/TopBar";
 import { Nav } from "@/components/Nav";
