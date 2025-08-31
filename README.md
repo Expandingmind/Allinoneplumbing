@@ -308,3 +308,4 @@ For technical support or questions about this website:
 - Environment variables should be documented and backed up securely
 - Database not required (static site with API integrations)
 # Environment variables configured for quote forms
+
