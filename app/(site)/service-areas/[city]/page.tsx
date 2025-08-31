@@ -239,7 +239,8 @@ export default function CityPage({ params }: CityPageProps) {
             <p className="text-muted-foreground">
               Don't see your specific neighborhood? Call us - we may still serve your area!
             </p>
-          </section>
+          </div>
+        </section>
         
         {/* Local FAQ */}
         {content && content.faq.length > 0 && (
