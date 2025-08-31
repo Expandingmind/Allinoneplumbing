@@ -13,24 +13,24 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Contact All In One Plumbing | Get Your Free Quote Today",
-  description: "Contact All In One Plumbing for fast, reliable service. Call (305) 555-0100 or request a free quote. 24/7 emergency service available.",
+  description: "Contact All In One Plumbing for fast, reliable service. Call (954) 657-3429 or request a free quote. 24/7 emergency service available.",
 };
 
 const contactMethods = [
   {
     icon: Phone,
     title: "Call Us",
-    primary: process.env.NEXT_PUBLIC_PHONE || "(305) 555-0100",
+    primary: process.env.NEXT_PUBLIC_PHONE || "(954) 657-3429",
     secondary: "24/7 Emergency Line",
-    action: `tel:${process.env.NEXT_PUBLIC_PHONE || "(305) 555-0100"}`,
+    action: `tel:${process.env.NEXT_PUBLIC_PHONE || "(954) 657-3429"}`,
     description: "Speak directly with our team for immediate assistance"
   },
   {
     icon: MessageCircle,
     title: "Text Us",
-    primary: process.env.NEXT_PUBLIC_PHONE || "(305) 555-0100",
+    primary: process.env.NEXT_PUBLIC_PHONE || "(954) 657-3429",
     secondary: "Quick Response",
-    action: `sms:${(process.env.NEXT_PUBLIC_PHONE || "(305) 555-0100").replace(/[^\d]/g, '')}`,
+    action: `sms:${(process.env.NEXT_PUBLIC_PHONE || "(954) 657-3429").replace(/[^\d]/g, '')}`,
     description: "Send us a text for non-emergency inquiries"
   },
   {
@@ -216,15 +216,15 @@ export default function ContactPage() {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href={`tel:${process.env.NEXT_PUBLIC_PHONE || "(305) 555-0100"}`}
+                href={`tel:${process.env.NEXT_PUBLIC_PHONE || "(954) 657-3429"}`}
                 className="bg-primary-foreground text-primary px-8 py-4 rounded-lg text-xl font-bold hover:opacity-90 transition-opacity flex items-center justify-center gap-2"
               >
                 <Phone className="h-6 w-6" />
-                CALL NOW: {process.env.NEXT_PUBLIC_PHONE || "(305) 555-0100"}
+                CALL NOW: {process.env.NEXT_PUBLIC_PHONE || "(954) 657-3429"}
               </a>
               
               <a
-                href={`sms:${(process.env.NEXT_PUBLIC_PHONE || "(305) 555-0100").replace(/[^\d]/g, '')}`}
+                href={`sms:${(process.env.NEXT_PUBLIC_PHONE || "(954) 657-3429").replace(/[^\d]/g, '')}`}
                 className="border border-primary-foreground/30 text-primary-foreground px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-foreground/10 transition-colors flex items-center justify-center gap-2"
               >
                 <MessageCircle className="h-5 w-5" />

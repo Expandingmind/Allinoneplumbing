@@ -191,7 +191,7 @@ export default function HomePage() {
               <h3 className="text-lg font-semibold mb-4">Contact</h3>
               <div className="space-y-2">
                 <p className="text-secondary-foreground/80">
-                  {process.env.NEXT_PUBLIC_PHONE || "(305) 555-0100"}
+                  {process.env.NEXT_PUBLIC_PHONE || "(954) 657-3429"}
                 </p>
                 <p className="text-secondary-foreground/80">
                   allinplumbingsolutions@gmail.com

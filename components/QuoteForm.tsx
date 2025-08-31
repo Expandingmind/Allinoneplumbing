@@ -123,7 +123,7 @@ export function QuoteForm() {
               Something went wrong
             </h3>
             <p className="text-red-700">
-              Please call us directly at {process.env.NEXT_PUBLIC_PHONE || "(305) 555-0100"}
+              Please call us directly at {process.env.NEXT_PUBLIC_PHONE || "(954) 657-3429"}
             </p>
           </div>
         )}

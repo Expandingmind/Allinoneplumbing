@@ -19,7 +19,7 @@ const navigation = [
 export function Nav() {
   const [isOpen, setIsOpen] = React.useState(false);
   const pathname = usePathname();
-  const companyPhone = process.env.NEXT_PUBLIC_PHONE || "(305) 555-0100";
+  const companyPhone = process.env.NEXT_PUBLIC_PHONE || "(954) 657-3429";
 
   return (
     <nav className="bg-card border-b border-border sticky top-0 z-50">

@@ -93,7 +93,7 @@ export default function CityPage({ params }: CityPageProps) {
     notFound();
   }
   
-  const companyPhone = city.phone || process.env.NEXT_PUBLIC_PHONE || "(305) 555-0100";
+  const companyPhone = city.phone || process.env.NEXT_PUBLIC_PHONE || "(954) 657-3429";
   
   return (
     <>

@@ -228,7 +228,7 @@ Required:
 RESEND_API_KEY=your_production_key
 ORG_EMAIL=allinplumbingsolutions@gmail.com
 NEXT_PUBLIC_COMPANY_NAME=Your Company Name
-NEXT_PUBLIC_PHONE=(555) 123-4567
+NEXT_PUBLIC_PHONE=(954) 657-3429
 NEXT_PUBLIC_EMAIL=allinplumbingsolutions@gmail.com
 ```
 

@@ -27,7 +27,7 @@ const serviceHighlights = [
 ];
 
 export default function ServiceAreasPage() {
-  const companyPhone = process.env.NEXT_PUBLIC_PHONE || "(305) 555-0100";
+  const companyPhone = process.env.NEXT_PUBLIC_PHONE || "(954) 657-3429";
   
   return (
     <>

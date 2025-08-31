@@ -1,7 +1,7 @@
 import { Phone, Shield, Clock } from "lucide-react";
 
 export function TopBar() {
-  const companyPhone = process.env.NEXT_PUBLIC_PHONE || "(305) 555-0100";
+  const companyPhone = process.env.NEXT_PUBLIC_PHONE || "(954) 657-3429";
   
   return (
     <div className="bg-secondary text-secondary-foreground py-2 px-4 text-sm">
