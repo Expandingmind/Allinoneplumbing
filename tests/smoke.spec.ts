@@ -131,7 +131,7 @@ test.describe('All In One Plumbing - Smoke Tests', () => {
     
     // Check that mobile menu items are visible
     await expect(page.getByText('Services')).toBeVisible();
-    await expect(page.getByText('Rates')).toBeVisible();
+
   });
 
   test('Accessibility basics', async ({ page }) => {

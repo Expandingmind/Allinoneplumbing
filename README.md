@@ -51,7 +51,7 @@ Open [http://localhost:3000](http://localhost:3000) to view the website.
 │   │   ├── page.tsx       # Homepage
 │   │   ├── about/         # About page
 │   │   ├── contact/       # Contact page
-│   │   ├── rates/         # Pricing page
+
 │   │   ├── portfolio/     # Portfolio/gallery
 │   │   ├── services/      # Services pages
 │   │   └── service-areas/ # Location-based pages
