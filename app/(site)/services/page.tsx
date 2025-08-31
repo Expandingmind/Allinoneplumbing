@@ -81,7 +81,6 @@ export default function ServicesPage() {
                     title={service.name}
                     description={service.blurb}
                     icon={Icon}
-                    priceFrom={service.priceFrom}
                     href={`/services/${service.slug}`}
                   />
                 );

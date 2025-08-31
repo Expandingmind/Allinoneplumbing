@@ -92,8 +92,9 @@ export function QuoteForm() {
   };
 
   return (
-    <section id="quote-form" className="py-16 px-4 bg-card">
+    <section id="quote-form" className="py-16 px-4 bg-background">
       <div className="container mx-auto max-w-2xl">
+        <div className="bg-card rounded-lg p-8 shadow-sm border border-border">
         <div className="text-center mb-8">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
             Get Your Free Quote
@@ -275,6 +276,7 @@ export function QuoteForm() {
             Message and data rates may apply.
           </p>
         </form>
+        </div>
       </div>
     </section>
   );

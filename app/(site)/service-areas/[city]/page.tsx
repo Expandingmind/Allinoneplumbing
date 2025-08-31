@@ -177,7 +177,6 @@ export default function CityPage({ params }: CityPageProps) {
                     title={service.name}
                     description={service.blurb}
                     icon={Icon}
-                    priceFrom={service.priceFrom}
                     href={`/services/${service.slug}`}
                   />
                 );

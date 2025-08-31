@@ -79,7 +79,6 @@ export default function HomePage() {
                     title={service.name}
                     description={service.blurb}
                     icon={Icon}
-                    priceFrom={service.priceFrom}
                     href={`/services/${service.slug}`}
                   />
                 );
@@ -142,7 +141,7 @@ export default function HomePage() {
                 South Florida's trusted plumbing professionals. Licensed, insured, and ready to serve you 24/7.
               </p>
               <p className="text-sm text-secondary-foreground/60">
-                License #CFC1234567 • Insured & Bonded
+                License #CFC1430361 • Insured & Bonded
               </p>
             </div>
             

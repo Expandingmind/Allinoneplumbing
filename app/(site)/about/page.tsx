@@ -200,7 +200,7 @@ export default function AboutPage() {
                 <ul className="space-y-3">
                   <li className="flex items-center gap-3">
                     <CheckCircle className="h-5 w-5 text-primary shrink-0" />
-                    <span className="text-muted-foreground">Florida State Contractor License #CFC1234567</span>
+                    <span className="text-muted-foreground">Florida State Contractor License #CFC1430361</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <CheckCircle className="h-5 w-5 text-primary shrink-0" />
