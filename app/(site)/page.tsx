@@ -35,8 +35,8 @@ const whyChooseUsFeatures = [
   },
   {
     icon: CheckCircle,
-    title: "Upfront Pricing",
-    description: "Transparent quotes before we start. No hidden fees, no surprises on your bill."
+    title: "Transparent Service",
+    description: "Clear communication and honest service. No hidden fees, no surprises on your bill."
   },
   {
     icon: Gauge,
