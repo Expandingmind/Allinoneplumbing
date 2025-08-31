@@ -17,33 +17,33 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "About All In One Plumbing | Licensed South Florida Plumbers",
-  description: "Learn about our licensed, insured plumbing team serving South Florida. Over 15 years of experience with 24/7 emergency service.",
+  description: "Learn about our licensed, insured plumbing team serving South Florida. Over 6 years of experience with 24/7 emergency service.",
 };
 
 const teamMembers = [
   {
     name: "Mike Rodriguez",
     role: "Master Plumber & Owner",
-    experience: "18+ years",
+    experience: "8+ years",
     certifications: "Master Plumber License, Backflow Certified"
   },
   {
     name: "Sarah Johnson",
     role: "Service Manager",
-    experience: "12+ years", 
+    experience: "6+ years", 
     certifications: "Journeyman Plumber, Customer Service Excellence"
   },
   {
     name: "David Martinez",
     role: "Senior Technician",
-    experience: "15+ years",
+    experience: "7+ years",
     certifications: "Gas Line Certified, Water Heater Specialist"
   }
 ];
 
 const companyStats = [
   { icon: Users, number: "5,000+", label: "Happy Customers" },
-  { icon: Wrench, number: "15+", label: "Years Experience" },
+  { icon: Wrench, number: "6+", label: "Years Experience" },
   { icon: Award, number: "A+", label: "BBB Rating" },
   { icon: Star, number: "4.9", label: "Average Review" }
 ];
@@ -65,7 +65,7 @@ export default function AboutPage() {
                 About All In One Plumbing
               </h1>
               <p className="text-xl md:text-2xl text-secondary-foreground/90 mb-8">
-                Serving South Florida with professional plumbing services since 2008. 
+                Serving South Florida with professional plumbing services since 2019. 
                 Licensed, insured, and committed to exceptional customer service.
               </p>
               
@@ -118,7 +118,7 @@ export default function AboutPage() {
             
             <div className="prose prose-lg mx-auto text-muted-foreground">
               <p className="text-xl leading-relaxed mb-8">
-                All In One Plumbing was founded in 2008 with a simple mission: provide South Florida 
+                All In One Plumbing was founded in 2019 with a simple mission: provide South Florida 
                 homeowners with honest, reliable plumbing services at fair prices. What started as a 
                 one-person operation has grown into a trusted team of licensed professionals.
               </p>
