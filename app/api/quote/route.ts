@@ -2,7 +2,14 @@ import { NextRequest, NextResponse } from 'next/server';
 import { Resend } from 'resend';
 import { z } from 'zod';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+// Initialize Resend only when API key is available
+const getResendClient = () => {
+  const apiKey = process.env.RESEND_API_KEY;
+  if (!apiKey) {
+    throw new Error('RESEND_API_KEY environment variable is not set');
+  }
+  return new Resend(apiKey);
+};
 
 const quoteRequestSchema = z.object({
   name: z.string().min(1),
@@ -20,6 +27,18 @@ const quoteRequestSchema = z.object({
 
 export async function POST(request: NextRequest) {
   try {
+    // Check if Resend API key is configured
+    if (!process.env.RESEND_API_KEY) {
+      console.error('RESEND_API_KEY environment variable is not set');
+      return NextResponse.json(
+        { 
+          success: false, 
+          message: 'Email service is not configured' 
+        },
+        { status: 500 }
+      );
+    }
+
     const body = await request.json();
     const data = quoteRequestSchema.parse(body);
 
@@ -51,6 +70,7 @@ export async function POST(request: NextRequest) {
 
     const orgEmail = process.env.ORG_EMAIL || 'info@allinone-plumbing.com';
     
+    const resend = getResendClient();
     await resend.emails.send({
       from: 'Website Quote <quotes@allinone-plumbing.com>',
       to: [orgEmail],
