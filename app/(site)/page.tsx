@@ -195,7 +195,7 @@ export default function HomePage() {
                   {process.env.NEXT_PUBLIC_PHONE || "(305) 555-0100"}
                 </p>
                 <p className="text-secondary-foreground/80">
-                  {process.env.NEXT_PUBLIC_EMAIL || "info@allinone-plumbing.com"}
+                  allinplumbingsolutions@gmail.com
                 </p>
                 <p className="text-secondary-foreground/80">
                   24/7 Emergency Service

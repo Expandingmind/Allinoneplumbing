@@ -68,11 +68,11 @@ export async function POST(request: NextRequest) {
       Timestamp: ${data.timestamp || new Date().toISOString()}
     `;
 
-    const orgEmail = process.env.ORG_EMAIL || 'info@allinone-plumbing.com';
+    const orgEmail = process.env.ORG_EMAIL || 'allinplumbingsolutions@gmail.com';
     
     const resend = getResendClient();
     await resend.emails.send({
-      from: 'Website Quote <quotes@allinone-plumbing.com>',
+      from: 'Website Quote <quotes@allinplumbingsolutions.com>',
       to: [orgEmail],
       subject: `New Quote Request - ${data.name} (${data.service})`,
       text: emailContent,

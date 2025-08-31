@@ -156,7 +156,7 @@ The website uses Resend for email delivery. Configure in your environment:
 
 ```bash
 RESEND_API_KEY=your_resend_api_key
-ORG_EMAIL=info@yourcompany.com
+ORG_EMAIL=allinplumbingsolutions@gmail.com
 ```
 
 Quote form submissions are sent to `ORG_EMAIL` with tracking data.
@@ -226,10 +226,10 @@ Tests cover:
 Required:
 ```bash
 RESEND_API_KEY=your_production_key
-ORG_EMAIL=info@yourcompany.com
+ORG_EMAIL=allinplumbingsolutions@gmail.com
 NEXT_PUBLIC_COMPANY_NAME=Your Company Name
 NEXT_PUBLIC_PHONE=(555) 123-4567
-NEXT_PUBLIC_EMAIL=info@yourcompany.com
+NEXT_PUBLIC_EMAIL=allinplumbingsolutions@gmail.com
 ```
 
 Optional:

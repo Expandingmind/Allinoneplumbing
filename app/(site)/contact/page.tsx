@@ -36,9 +36,9 @@ const contactMethods = [
   {
     icon: Mail,
     title: "Email Us",
-    primary: process.env.NEXT_PUBLIC_EMAIL || "info@allinone-plumbing.com",
+    primary: "allinplumbingsolutions@gmail.com",
     secondary: "General Inquiries",
-    action: `mailto:${process.env.NEXT_PUBLIC_EMAIL || "info@allinone-plumbing.com"}`,
+    action: "mailto:allinplumbingsolutions@gmail.com",
     description: "Email us for quotes and general questions"
   }
 ];
