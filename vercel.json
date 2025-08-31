@@ -1,17 +1,6 @@
 {
+  "framework": "nextjs",
   "buildCommand": "npm run build",
   "devCommand": "npm run dev",
-  "installCommand": "npm install",
-  "framework": "nextjs",
-  "functions": {
-    "app/api/**/*.ts": {
-      "runtime": "nodejs20.x"
-    }
-  },
-  "env": {
-    "NEXT_PUBLIC_THEME": "gold-navy",
-    "NEXT_PUBLIC_COMPANY_NAME": "All In One Plumbing",
-    "NEXT_PUBLIC_PHONE": "(305) 555-0100",
-    "NEXT_PUBLIC_EMAIL": "info@allinone-plumbing.com"
-  }
+  "installCommand": "npm install"
 }
