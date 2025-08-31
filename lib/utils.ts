@@ -9,13 +9,7 @@ export function formatPhone(phone: string) {
   return phone.replace(/[^\d]/g, '').replace(/(\d{3})(\d{3})(\d{4})/, '($1) $2-$3')
 }
 
-export function formatPrice(price: number) {
-  return new Intl.NumberFormat('en-US', {
-    style: 'currency',
-    currency: 'USD',
-    minimumFractionDigits: 0
-  }).format(price)
-}
+
 
 export function slugify(str: string) {
   return str

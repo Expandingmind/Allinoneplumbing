@@ -78,8 +78,8 @@ export function FAQ({ title, items, className }: FAQProps) {
 export function HomeFAQ() {
   const faqItems: FAQItem[] = [
     {
-      question: "Do you provide upfront pricing?",
-      answer: "Yes, we provide transparent upfront pricing before any work begins. No hidden fees or surprises on your bill."
+      question: "Do you provide free estimates?",
+      answer: "Yes, we provide free, no-obligation estimates for all our plumbing services. Contact us to discuss your specific needs."
     },
     {
       question: "Are you available for emergency calls?",

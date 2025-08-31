@@ -14,7 +14,6 @@ import { QuoteForm } from "@/components/QuoteForm";
 import { CTASticky } from "@/components/CTASticky";
 import { ScrollToQuoteButton } from "@/components/ScrollToQuoteButton";
 import { services } from "@/lib/services";
-import { formatPrice } from "@/lib/utils";
 import type { Metadata } from "next";
 
 interface ServicePageProps {
@@ -143,7 +142,7 @@ export default function ServicePage({ params }: ServicePageProps) {
                 </div>
                 <div className="flex items-center gap-3">
                   <CheckCircle className="h-6 w-6 text-primary" />
-                  <span>Upfront pricing</span>
+                  <span>Free estimates</span>
                 </div>
               </div>
               
@@ -221,30 +220,7 @@ export default function ServicePage({ params }: ServicePageProps) {
           </section>
         )}
         
-        {/* Pricing */}
-        <section className="py-16 px-4 bg-muted/50">
-          <div className="container mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Transparent Pricing
-            </h2>
-            <div className="max-w-md mx-auto bg-card rounded-lg p-8 shadow-lg">
-              <div className="text-3xl font-bold text-primary mb-2">
-                {service.priceFrom > 0 ? `From ${formatPrice(service.priceFrom)}` : "Call for Pricing"}
-              </div>
-              <p className="text-muted-foreground mb-6">
-                Upfront pricing with no hidden fees. Trip fee waived with repair.
-              </p>
-              <a
-                href={`tel:${companyPhone}`}
-                className="bg-primary text-primary-foreground px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity inline-flex items-center gap-2"
-              >
-                <Phone className="h-5 w-5" />
-                Get Exact Quote
-              </a>
-            </div>
-          </div>
-        </section>
-        
+
         {/* Before/After Gallery Placeholder */}
         <section className="py-16 px-4">
           <div className="container mx-auto text-center">

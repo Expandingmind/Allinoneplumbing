@@ -166,9 +166,9 @@ export default function CityPage({ params }: CityPageProps) {
               </p>
             </div>
             
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {services.slice(0, 6).map((service, index) => {
-                const icons = [Wrench, Wrench, Wrench, Wrench, Wrench, Wrench];
+                const icons = [Flame, Wrench, Zap, Droplets, Search, ShowerHead];
                 const Icon = icons[index];
                 
                 return (
@@ -177,6 +177,7 @@ export default function CityPage({ params }: CityPageProps) {
                     title={service.name}
                     description={service.blurb}
                     icon={Icon}
+                    image={service.image}
                     href={`/services/${service.slug}`}
                   />
                 );

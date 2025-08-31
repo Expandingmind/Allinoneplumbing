@@ -70,7 +70,7 @@ export default function HomePage() {
             
             <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
               {services.map((service, index) => {
-                const icons = [Droplets, Flame, Flame, Search, Wrench, ShowerHead, Zap, Clock];
+                const icons = [Flame, Wrench, Zap, Droplets, Search, ShowerHead, Droplets, Wrench, Wrench, Shield];
                 const Icon = icons[index] || Wrench;
                 
                 return (
@@ -79,6 +79,7 @@ export default function HomePage() {
                     title={service.name}
                     description={service.blurb}
                     icon={Icon}
+                    image={service.image}
                     href={`/services/${service.slug}`}
                   />
                 );
@@ -169,11 +170,7 @@ export default function HomePage() {
                     About Us
                   </a>
                 </li>
-                <li>
-                  <a href="/rates" className="text-secondary-foreground/80 hover:text-primary transition-colors">
-                    Pricing
-                  </a>
-                </li>
+
                 <li>
                   <a href="/portfolio" className="text-secondary-foreground/80 hover:text-primary transition-colors">
                     Portfolio

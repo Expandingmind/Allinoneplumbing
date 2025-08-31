@@ -16,13 +16,13 @@ const testimonials: Testimonial[] = [
     name: "Maria Rodriguez",
     location: "Miami, FL",
     rating: 5,
-    comment: "Outstanding service! They fixed our water heater the same day and the pricing was exactly as quoted. Professional and courteous team."
+    comment: "Outstanding service! They fixed our water heater the same day with transparent communication. Professional and courteous team."
   },
   {
     name: "David Thompson",
     location: "Fort Lauderdale, FL",
     rating: 5,
-    comment: "Called for an emergency drain clog at 10 PM and they were here within an hour. Excellent work and fair pricing. Highly recommend!"
+    comment: "Called for an emergency drain clog at 10 PM and they were here within an hour. Excellent work and fair service. Highly recommend!"
   },
   {
     name: "Jennifer Lee",
@@ -34,7 +34,7 @@ const testimonials: Testimonial[] = [
     name: "Robert Martinez",
     location: "Cape Coral, FL",
     rating: 5,
-    comment: "Great experience from start to finish. Upfront pricing, no surprises, and they left everything clean. Will definitely use again."
+    comment: "Great experience from start to finish. Clear communication, no surprises, and they left everything clean. Will definitely use again."
   },
 ];
 

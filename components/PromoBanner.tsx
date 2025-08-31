@@ -41,12 +41,12 @@ export function PromoBanner({ message, dismissible = true }: PromoBannerProps) {
 // Pre-configured promo banners
 export function DrainSpecialBanner() {
   return (
-    <PromoBanner message="$49 Drain Inspection Special - Limited Time!" />
+    <PromoBanner message="Free Drain Inspection with Service Call!" />
   );
 }
 
 export function TripFeeBanner() {
   return (
-    <PromoBanner message="$0 Trip Fee with Any Repair - Call Today!" />
+    <PromoBanner message="24/7 Emergency Service Available - Call Today!" />
   );
 }

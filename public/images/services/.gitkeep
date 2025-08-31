@@ -1,0 +1,20 @@
+# Service Images Directory
+# Add your service images here:
+
+# Required service images:
+# - water-heater.jpg
+# - general-plumbing.jpg  
+# - jetting.jpg
+# - drain-cleaning.jpg
+# - leak-detection.jpg
+# - gas-piping.jpg
+# - water-quality.jpg
+# - custom-plumbing.jpg
+# - commercial-residential.jpg
+# - backflow.jpg
+
+# Images should be:
+# - High quality (1200x800px recommended)
+# - Professional appearance
+# - Relevant to the specific service
+# - Optimized for web (under 500KB each)

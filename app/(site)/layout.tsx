@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/app/providers";
 
 export const metadata: Metadata = {
   title: "All In One Plumbing — Fast, Reliable Service",
-  description: "Upfront pricing. Licensed & insured. Same-day plumbing service.",
+  description: "Professional plumbing services. Licensed & insured. Same-day service available.",
 };
 
 export default function RootLayout({

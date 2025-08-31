@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   description: "Complete plumbing services in South Florida. Drain cleaning, water heater repair, leak detection, and more. Licensed and insured professionals.",
 };
 
-const serviceIcons = [Droplets, Flame, Flame, Search, Wrench, ShowerHead, Zap, Clock];
+const serviceIcons = [Flame, Wrench, Zap, Droplets, Search, ShowerHead, Droplets, Wrench, Wrench, Shield];
 
 export default function ServicesPage() {
   const companyPhone = process.env.NEXT_PUBLIC_PHONE || "(954) 657-3429";
@@ -67,7 +67,7 @@ export default function ServicesPage() {
                 Our Services
               </h2>
               <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                Professional solutions for every plumbing need. Click any service to learn more about our process and pricing.
+                Professional solutions for every plumbing need. Click any service to learn more about our process and expertise.
               </p>
             </div>
             
@@ -81,6 +81,7 @@ export default function ServicesPage() {
                     title={service.name}
                     description={service.blurb}
                     icon={Icon}
+                    image={service.image}
                     href={`/services/${service.slug}`}
                   />
                 );

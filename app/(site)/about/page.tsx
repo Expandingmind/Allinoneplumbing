@@ -126,7 +126,7 @@ export default function AboutPage() {
               <p className="text-lg leading-relaxed mb-8">
                 Over the years, we've built our reputation on transparency, quality workmanship, and 
                 exceptional customer service. We believe in treating every home like our own and every 
-                customer like family. That's why we provide upfront pricing, stand behind our work with 
+                customer like family. That's why we provide transparent communication, stand behind our work with 
                 comprehensive warranties, and are available 24/7 for emergency calls.
               </p>
               
@@ -266,7 +266,7 @@ export default function AboutPage() {
                   Integrity
                 </h3>
                 <p className="text-muted-foreground">
-                  Honest communication, fair pricing, and transparent business practices in every interaction.
+                  Honest communication, quality service, and transparent business practices in every interaction.
                 </p>
               </div>
               

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const serviceHighlights = [
   "Emergency 24/7 service",
   "Licensed & insured",
-  "Upfront pricing",
+  "Free estimates",
   "Same-day service available",
   "Local South Florida company",
   "Residential & commercial"

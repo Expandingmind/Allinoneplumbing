@@ -91,14 +91,14 @@ export function HomeHero() {
   return (
     <Hero
       title="Fast, Reliable Plumbing—24/7 in Miami"
-      subtitle="Upfront pricing, licensed & insured techs, same-day service."
+      subtitle="Professional, licensed & insured techs, same-day service available."
       primaryCta={{
         text: "Get Your Free Quote Now",
         action: scrollToQuote
       }}
       secondaryCta={{
-        text: "Check Rates",
-        href: "/rates"
+        text: "View Services",
+        href: "/services"
       }}
     />
   );

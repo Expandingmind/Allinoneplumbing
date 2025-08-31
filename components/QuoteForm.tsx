@@ -100,7 +100,7 @@ export function QuoteForm() {
             Get Your Free Quote
           </h2>
           <p className="text-xl text-muted-foreground">
-            No obligation, upfront pricing in minutes
+            No obligation, professional consultation in minutes
           </p>
         </div>
 
