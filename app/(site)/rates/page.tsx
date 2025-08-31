@@ -9,6 +9,7 @@ import { TopBar } from "@/components/TopBar";
 import { Nav } from "@/components/Nav";
 import { QuoteForm } from "@/components/QuoteForm";
 import { CTASticky } from "@/components/CTASticky";
+import { ScrollToQuoteButton } from "@/components/ScrollToQuoteButton";
 import { formatPrice } from "@/lib/utils";
 import type { Metadata } from "next";
 
@@ -265,12 +266,9 @@ export default function RatesPage() {
                 Call: {companyPhone}
               </a>
               
-              <button
-                onClick={() => document.getElementById('quote-form')?.scrollIntoView({ behavior: 'smooth' })}
-                className="border border-primary-foreground/30 text-primary-foreground px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-foreground/10 transition-colors"
-              >
+              <ScrollToQuoteButton className="border border-primary-foreground/30 text-primary-foreground px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-foreground/10 transition-colors">
                 Get Free Quote
-              </button>
+              </ScrollToQuoteButton>
             </div>
           </div>
         </section>

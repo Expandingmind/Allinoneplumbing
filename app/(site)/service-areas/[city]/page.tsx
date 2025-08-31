@@ -13,6 +13,7 @@ import { ServiceCard } from "@/components/ServiceCard";
 import { FAQ } from "@/components/FAQ";
 import { QuoteForm } from "@/components/QuoteForm";
 import { CTASticky } from "@/components/CTASticky";
+import { ScrollToQuoteButton } from "@/components/ScrollToQuoteButton";
 import { cities } from "@/lib/cities";
 import { services } from "@/lib/services";
 import type { Metadata } from "next";
@@ -145,12 +146,9 @@ export default function CityPage({ params }: CityPageProps) {
                   Call {city.name}: {companyPhone}
                 </a>
                 
-                <button
-                  onClick={() => document.getElementById('quote-form')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="border border-secondary-foreground/30 text-secondary-foreground px-8 py-4 rounded-lg text-lg font-semibold hover:bg-secondary-foreground/10 transition-colors"
-                >
+                <ScrollToQuoteButton className="border border-secondary-foreground/30 text-secondary-foreground px-8 py-4 rounded-lg text-lg font-semibold hover:bg-secondary-foreground/10 transition-colors">
                   Get Free Local Quote
-                </button>
+                </ScrollToQuoteButton>
               </div>
             </div>
           </div>
@@ -270,12 +268,9 @@ export default function CityPage({ params }: CityPageProps) {
                 Call {city.name}: {companyPhone}
               </a>
               
-              <button
-                onClick={() => document.getElementById('quote-form')?.scrollIntoView({ behavior: 'smooth' })}
-                className="border border-primary-foreground/30 text-primary-foreground px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-foreground/10 transition-colors"
-              >
+              <ScrollToQuoteButton className="border border-primary-foreground/30 text-primary-foreground px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-foreground/10 transition-colors">
                 Get Local Quote
-              </button>
+              </ScrollToQuoteButton>
             </div>
           </div>
         </section>

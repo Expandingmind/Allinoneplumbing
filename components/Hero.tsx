@@ -1,3 +1,5 @@
+"use client";
+
 import { ArrowRight, Phone } from "lucide-react";
 
 interface HeroProps {
